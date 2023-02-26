@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: papayawhip;
+    text-align: center;
+    color: aliceblue;
+}
+
+.watch {
+    width: 100%;
+    max-width: 480px;
+    background-color: black;
+    margin: 3rem auto;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.time {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.btns button {
+    padding: 0.5rem;
+    margin-inline: 5px;
+    font-size: 1.2rem;
+    background-color: pink;
+    border: none;
+    outline: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.btns button:hover {
+    opacity: 0.7;
+}
+
+
+.btns button:active {
+    background-color: papayawhip;
+}
